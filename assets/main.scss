@@ -1,0 +1,36 @@
+h1{
+	color: var(--v-primary-base);
+	&+.subheader{
+		position: relative;
+		top: -4px;
+	}
+}
+.subheader{
+	color: var(--v-primary-base);
+	font-weight: 700;
+}
+*{
+	font-family: "Exo", sans-serif!important
+}
+h1, h2, h3, h4, h5, h6, .v-card-title{
+	color: var(--v-primary-base);
+}
+.container{
+	@include md-down{
+		max-width: 100%!important;
+	}
+}
+.regular-text{
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--v-accent-base)
+}
+.bigger-text{
+	font-size: 18px!important;
+}
+h1, h2, h3, h4, h5, h6{
+	line-height: 1;
+}
+.text-container{
+	max-width: 640px;
+}
